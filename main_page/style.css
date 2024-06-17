@@ -1,0 +1,239 @@
+
+.heading {
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-family: "Playwrite NL", cursive;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(207, 201, 201);
+    padding: 10px 0px 0px 0px;
+    margin: 0%;
+}
+.heading input
+{
+    padding: 10px 0px 0px 0px;
+    float:right;
+    display: none;
+}
+.heading label {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 15px;
+    cursor: pointer; 
+    float: right;
+    transition: 0.3s;
+    border: 3px solid rgb(153, 153, 153);
+}
+.heading label:hover {
+    box-shadow: 5px 5px 10px 5px rgb(168, 168, 168);
+}
+.heading label:active {
+    transform: translate(3px, 3px);
+    box-shadow: 2px 2px 10px 5px rgb(168, 168, 168);
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#menu {  
+    position: sticky;
+    top: 0;
+    padding: 10px 0px 0px 0px;
+    margin: 0%;
+    justify-content: center;
+    background-color: rgb(207, 201, 201);
+    float: top;
+    list-style-type: none;
+    
+}
+
+#menu li {
+    width:max-content;
+    display: inline-block;
+    border-bottom: 3px solid rgb(153, 153, 153);
+    text-align: center;
+    margin:0px 15px 0px 15px;
+    padding: 20px 20px 20px 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+    border-radius: 10px 10px 2px 2px;
+}
+
+#menu li:hover{
+    box-shadow: 5px 5px 10px 5px rgb(210, 210, 210) inset;
+    background-color: white;
+}
+
+#ison {
+    text-align: center;
+    margin:0px 15px 0px 15px;
+    padding: 20px 20px 20px 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+    border-radius: 10px 10px 2px 2px;
+    display: inline-block;
+    box-shadow: 2px 2px 10px 5px rgb(210, 210, 210) inset;
+    background-color: white;
+}
+#menu li:active {
+    box-shadow: 2px 2px 10px 5px rgb(210, 210, 210) inset;
+    background-color: white;
+    border-bottom: none;
+}
+button img
+{
+    border-radius: 10px;
+    width:30px;
+    height:30px;
+    margin:0px;
+    padding: 0px;
+}
+button
+{
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+    float:right;
+    transition: 0.3s;
+}
+button:hover {
+    box-shadow: 5px 5px 10px 5px rgb(168, 168, 168);
+}
+button:active
+{
+    transform: translate(3px, 3px);
+    box-shadow: 2px 2px 10px 5px rgb(168, 168, 168);
+}
+.search
+{
+    margin:0px;
+    padding: 0px;
+    float: right;
+}   
+.search input
+{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin:0px ;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    transition: 0.3s;
+}
+#info
+{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: rgb(62, 62, 62);
+    
+}
+.heading button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 15px;
+    cursor: pointer; 
+    float: right;
+    transition: 0.3s;
+    border: 3px solid rgb(153, 153, 153);
+    background-color: rgb(207, 201, 201);
+}
+#photos {
+    padding:0%;
+    margin: 0%S;
+    width: 100%;
+    text-align: center;
+}
+
+#photos li {
+    transition: 0.3s;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+
+#photos img {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+#photos li:hover {
+    box-shadow: 5px 5px 10px 5px rgb(168, 168, 168);
+}
+#photos li:active {
+    transform: translate(3px, 3px);
+    box-shadow: 2px 2px 10px 5px rgb(168, 168, 168);
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.heading.light-mode {
+    background-color: rgb(207, 201, 201);
+    color: black;
+}
+
+.heading.dark-mode {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+#menu.light-mode {
+    background-color: rgb(207, 201, 201);
+}
+
+#menu.dark-mode {
+    background-color: rgb(50, 50, 50);
+}
+
+#menu.light-mode li {
+    border-bottom: 3px solid rgb(153, 153, 153);
+}
+
+#menu.dark-mode li {
+    border-bottom: 3px solid rgb(100, 100, 100);
+}
+
+#info.light-mode {
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+#info.dark-mode {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+button.light-mode {
+    background-color: rgb(207, 201, 201);
+    color: black;
+}
+
+button.dark-mode {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
