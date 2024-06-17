@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
     cd walls.io
     ```
 
-2. Open `index.html` in your preferred web browser to view the application.
+2. Open `index.html` from the main_page folder in your preferred web browser to view the application.
 
 ## Usage
 
