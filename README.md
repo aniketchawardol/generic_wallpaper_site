@@ -44,4 +44,4 @@ To run this project locally, follow these steps:
 
 - **HTML5:** Markup language for creating the structure of the web pages.
 - **CSS3:** Styling the application with a responsive design.
-- **JavaScript:** Adding interactivity to the web pages.
+- **JavaScript:** Adding interactivity to the web pages.<br><hr> To completely experience the website. add a folder named lockscreen to the main directory and add wallpapers to it (max 21 wallpapers) and rename all of those to 1. 
